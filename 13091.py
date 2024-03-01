@@ -4,6 +4,9 @@ def solve():
     mas = []
     for n in range(M + 1):
         b = f'{n:b}{n % 4:b}'
+        # или так
+        # b = str(bin(n)[2:]) + str(bin(n % 4)[2:])
+
         r = int(b, 2)
         mas.append(r)
     mas.sort()
