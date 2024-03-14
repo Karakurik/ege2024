@@ -24,4 +24,6 @@ def solve():
 
     print(len(result))
 
-solve()
+
+if __name__ == '__main__':
+    solve()

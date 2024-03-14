@@ -19,8 +19,10 @@ def solve():
 
     ans = 0
     for x in range(65, M + 1):
-        ans = max(ans, pref[x] - pref[x-65])
+        ans = max(ans, pref[x] - pref[x - 65])
 
     print(ans)
 
-solve()
+
+if __name__ == '__main__':
+    solve()

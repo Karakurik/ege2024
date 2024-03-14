@@ -18,4 +18,5 @@ def solve():
                                 return
 
 
-solve()
+if __name__ == '__main__':
+    solve()
